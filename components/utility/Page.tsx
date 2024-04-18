@@ -7,7 +7,7 @@ import React, { ReactChildren } from "react";
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Brayden Wright - Web Developer, Designer, Creator."
+      ? "Faizan Javair - Software Developer, and DevOps Engineer."
       : `${currentPage} - BraydenTW.io`
   }`;
   console.log(currentPage);
@@ -26,7 +26,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         />
         <link
           rel="icon"
-          type="image/png"
+          type="image/svg"
           sizes="32x32"
           href="/static/favicon/favicon-32x32.png"
         />
