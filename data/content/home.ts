@@ -60,6 +60,7 @@ export const skills: Skill[] = [
     title: "Figma",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
   },
+  
 ];
 
 export const testimonials: Testimonial[] = [
