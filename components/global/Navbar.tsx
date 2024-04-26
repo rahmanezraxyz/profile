@@ -38,6 +38,14 @@ function Navbar({ currentPage }) {
             </li>
           );
         })}
+        <li
+          className={`list-none text-white opacity-40 hover:opacity-100 transition-opacity`}
+          >
+              <a href={"https://drive.google.com/file/d/1p4zV4YgfM4w93DhOOrG-3gzvkRWRrcju/view?usp=sharing"} 
+              target="_blank">
+                Resume
+                </a>
+            </li>
       </ul>
     </nav>
   );

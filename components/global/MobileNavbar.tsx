@@ -72,6 +72,17 @@ export default function MobileNavbar() {
               </li>
             );
           })}
+          <li
+                className="border-b border-gray-900 text-gray-100 text-sm font-semibold"
+                style={{ transitionDelay: `${150 + 2 * 25}ms` }}
+              >
+               
+                  <a href={"https://drive.google.com/file/d/1p4zV4YgfM4w93DhOOrG-3gzvkRWRrcju/view?usp=sharing"} 
+                  target="_blank" 
+                  className="flex w-auto pb-4">
+                    Resume
+                    </a>
+              </li>
         </ul>
       )}
     </nav>

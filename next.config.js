@@ -7,6 +7,11 @@ module.exports = {
             destination: '/',
             permanent: true,
           },
+          {
+            source: '/designs',
+            destination: '/',
+            permanent: true,
+          },
         ]
       },
 };
