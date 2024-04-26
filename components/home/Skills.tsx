@@ -14,19 +14,19 @@ function Skills() {
         {""}
         <br />
         The <span className="text-fun-pink">Languages</span> and <span className="text-fun-pink">Frameworks</span> I have used.
+        
         <img
-          className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10]"
+          className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-140px] lg:left-[-4tpx] z-[-10] -rotate-12"
+          style={{width: 200, height:200 }}
           src="/static/doodles/skills/laptop.svg"
-        />
-        <img
-          className="sqD hidden md:block top-[140px] right-0 lg:top-[105px]"
-          src="/static/doodles/skills/coding.svg"
         />
         
         <img
-          className="sqD top-[-15px] right-[-15px]"
+          className="sqD top-[-100px] right-[-80px]"
+          style={{width: 200, height:200 }}
           src="/static/doodles/skills/fillStar.svg"
         />
+        
       </h2>
         </div>
       
@@ -59,18 +59,13 @@ function Skills() {
         {""}
         <br />
         The <span className="text-fun-pink">Tools</span> I have used to achieve <span className="text-fun-pink">success.</span>
+        
         <img
-          className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10]"
-          src="/static/doodles/skills/laptop.svg"
-        />
-        <img
-          className="sqD hidden md:block top-[140px] right-0 lg:top-[105px]"
+          className="sqD hidden md:block top-[140px] right-0 lg:top-[70px]"
+          style={{width: 200, height:200 }}
           src="/static/doodles/skills/coding.svg"
         />
-        <img
-          className="sqD hidden md:block top-[200px] right-[50px] lg:top-[170px] lg:right-[50px]"
-          src="/static/doodles/skills/youtube.svg"
-        />
+        
         
       </h2>
         </div>

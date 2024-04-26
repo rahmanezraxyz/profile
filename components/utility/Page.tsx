@@ -8,7 +8,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
       ? "Faizan Javair - Software Developer, and DevOps Engineer."
-      : `${currentPage} - BraydenTW.io`
+      : `${currentPage} - FaizanJavair`
   }`;
   console.log(currentPage);
   return (
@@ -41,23 +41,23 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://braydentw.io/" />
+        <meta property="og:url" content="https://faizanjavair.netlify.app/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta
           property="og:image"
-          content="https://braydentw.io/static/misc/og.png"
+          content="https://faizanjavair.netlify.app/static/misc/og.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://braydentw.io/" />
+        <meta property="twitter:url" content="https://faizanjavair.netlify.app/" />
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={desc} />
         <meta
           property="twitter:image"
-          content="https://braydentw.io/static/misc/og.png"
+          content="https://faizanjavair.netlify.app/misc/og.png"
         ></meta>
-        <script
+        {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
@@ -69,8 +69,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KC3CN7V');`,
           }}
-        ></script>
-        <script
+        ></script> */}
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -81,14 +81,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               });
           `,
           }}
-        />
+        /> */}
       </Head>
-      <noscript
+      {/* <noscript
         dangerouslySetInnerHTML={{
           __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC3CN7V"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         }}
-      ></noscript>
+      ></noscript> */}
 
       <main className="p-5 w-full flex-1 text-center">
         <div className="hidden sm:block z-100">

@@ -13,7 +13,7 @@ function Hero() {
           I am a <span className="heroShiny1 text-fun-pink">Fullstack</span> Developer and a{" "}
           <span className="heroShiny2 text-fun-pink">DevOps</span> Engineer.
           <img
-            className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-150px] sm:right-[120px]"
+            className="sqD squiggle-hero-html w-16 top-[-140px] right-[-50px] lg:top-[-140px] lg:right-[180px]"
             style={{ animationDelay: "0.1s" , width: 200, height:200 }}
             src="/static/doodles/hero/react.svg"
           />
@@ -23,32 +23,32 @@ function Hero() {
             src="/static/doodles/hero/nextjs.svg"
           />
           <img
-            className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-400px] lg:right-[-120px] w-[400px]"
+            className="sqD bottom-[-420px] -right-1/4 right-[-20%] lg:bottom-[-400px] lg:right-[-120px] w-[400px]"
             style={{ animationDelay: "0.3s"}}
             src="/static/doodles/hero/faizan.svg"
           />
           <img
-            className="sqD hidden sm:block bottom-[-450px] left-[-350px]"
+            className="sqD hidden sm:block bottom-[-450px] left-[-200px] lg:left-[-400px] lg:bottom-[-480px] sm:left-[-180px]"
             style={{ animationDelay: "0.4s" }}
             src="/static/doodles/hero/coder.svg"
           />
           <img
-            className="sqD hidden sm:block left-[100px] lg:left-[100px] bottom-[-200px]"
-            style={{ animationDelay: "0.5s", width: 200, height:200 }}
+            className="sqD hidden sm:block rigth-[40px] lg:left-[-0px] bottom-[-150px]"
+            style={{ animationDelay: "0.5s", width: 180, height:180 }}
             src="/static/doodles/hero/js.svg"
           />
           <img
-            className="sqD bottom-[-320px] right-[65%] sm:right-[33%] bottom-[-400px]"
+            className="sqD bottom-[-320px] right-[40%] lg:right-[40%] sm:right-[40%]"
             style={{ animationDelay: "0.6s" , width: 300, height:300  }}
             src="/static/doodles/hero/docker.svg"
           />
           <img
-            className="sqD right-[-60px] sm:right-0 bottom-[-350px] lg:[5%]"
+            className="sqD right-[-60px] right-[-100px] bottom-[-350px] lg:[5%]"
             style={{ animationDelay: "0.7s" , width: 400, height:400 }}
             src="/static/doodles/hero/python.svg"
           />
           <img
-            className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-210px] lg:left-[40px]"
+            className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-200px] sm:left-[-10px] lg:top-[-210px] lg:left-[40px]"
             style={{width: 300, height:300 }}
             src="/static/doodles/hero/line.svg"
           />
