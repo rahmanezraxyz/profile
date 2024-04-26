@@ -40,34 +40,39 @@ function Footer() {
             </div>
           );
         })}
-        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
+        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0  sm:border-0">
           
           <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
             {footer.support.buymeacoffee !== "" && (
-              <div>
+              
+                
                 <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
+                  href={`https://drive.google.com/file/d/1p4zV4YgfM4w93DhOOrG-3gzvkRWRrcju/view?usp=sharing`}
                   target="_blank"
+                  className="flex border-2 rounded-lg text-lg font-bold p-3 h-14 w-36 items-center justify-center text-center bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors"
                 >
-                  <img
-                    src="/static/misc/buy-me-a-coffee.svg"
+                  Resume
+                  {/* <img
+                    src=""
                     className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
+                  /> */}
                 </a>
-              </div>
+                
+                
+              
             )}
             {footer.support.paypal !== "" && (
-              <div>
+             
                 <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
+                  href={`https://www.youtube.com/channel/UCtGCzT5QPCEjFcohRhjA71w`}
                   target="_blank"
+                  className="flex border-2 rounded-lg text-lg font-bold p-3 h-14 w-36 items-center justify-center text-center bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors"
                 >
-                  <img
-                    src="/static/misc/paypal.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
+                  YouTube
+                  
                 </a>
-              </div>
+                
+             
             )}
             
           </div>
