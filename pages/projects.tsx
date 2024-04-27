@@ -8,7 +8,7 @@ function projects() {
   return (
     <Page
       currentPage="Projects"
-      meta={{ title: "Projects", desc: "I love coding using tools like React, NextJS, Tailwind, and many more! Here are some of my favorite projects." }}
+      meta={{ title: "Projects", desc: "I've worked on Fullstack Applications, Mobile Applications, 2D Games, C++ Apps and Machine Learning Projects." }}
     >
       <Heading />
       <Projects />

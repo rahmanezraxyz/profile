@@ -26,7 +26,7 @@ function Heading({ tag }: HeadingProps) {
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've worked on Fullstack Applications, 2D Games, C++ Apps and Machine Learning Projects.
+          I've worked on Fullstack Applications, Mobile Applications, 2D Games, C++ Apps and Machine Learning Projects.
         </p>
       )}
     </div>
