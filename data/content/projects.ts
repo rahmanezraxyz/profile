@@ -6,7 +6,7 @@ const projects: Project[] = [
     id: 0,
     title: "Socializze",
     desc: "Social Media Platform wher you can post, make friends and chat.",
-    img: "/static/projects/yei-learn.png",
+    img: "/static/projects/social-media.png",
     github: "https://github.com/FaizanJavair/Socializze",
     tags: ["HTML", "CSS", "Bootstrap", "Django", "Django Rest-Framework", "Python", "PostgreSQL", "Redis"],
   },
@@ -31,9 +31,9 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Battle Space",
-    desc: "A top down 2D Shooter with rich features and amazing levels.",
-    img: "/static/projects/bitcointemp.png",
-    link: "https://bitcointemp.com",
+    desc: "A top down 2D Shooter with rich features and amazing levels. [Group Project]",
+    img: "/static/projects/battle.png",
+    github: "https://github.com/neveensakr/games-development-t10",
     tags: ["Unity", "C#"],
   },
   {
@@ -46,13 +46,13 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Wine Data Machine Learning - KNN",
-    desc: "Implementing KNN and conducting Cross-Validation using KNN. Seeing the difference in Euclidean and Manhattan distance function and comparing average and folds.",
-    img: "/static/projects/ml-knn.png",
-    github: "",
-    link:"https://comfy-mermaid-2e2392.netlify.app/",
-    tags: ["Python", "SciKit Learn"],
+    title: "Sentiment Analysis - IMDB Dataset",
+    desc: "Training a model to conduct binary classification and analysing using average and precision values.",
+    img: "/static/projects/sentiment-bc.png",
+    link: "https://delightful-figolla-730cb6.netlify.app/",
+    tags: ["Python", "Keras", "Matplotlib", "Jupyter Notebook", "Binary Classification"],
   },
+  
   {
     id: 6,
     title: "OtoDecks DJ Application",
@@ -63,12 +63,14 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    title: "Ideal Smart Home",
-    desc: "Simple Application that allows to manage and control the smart devices.",
-    img: "/static/projects/create-html-boilerplate.png",
-    github: "https://github.com/FaizanJavair/ideal-smart-home",
-    tags: ["HTML","Bootstrap", "Javascript", "EJS", "MySQL", "Express", "NodeJS"],
+    title: "Wine Data Machine Learning - KNN",
+    desc: "Implementing KNN and conducting Cross-Validation using KNN. Seeing the difference in Euclidean and Manhattan distance function and comparing average and folds.",
+    img: "/static/projects/ml-knn.png",
+    github: "",
+    link:"https://comfy-mermaid-2e2392.netlify.app/",
+    tags: ["Python", "SciKit Learn"],
   },
+  
   {
     id: 8,
     title: "Simple Blog Website",
@@ -85,6 +87,14 @@ const projects: Project[] = [
     img: "/static/projects/pencilmangame.png",
     link: "https://wondrous-cocada-a557b0.netlify.app/",
     github:"https://github.com/FaizanJavair/pencilman/",
+    tags: ["Javascript", "p5.js", "HTML"],
+  },
+  {
+    id: 10,
+    title: "Music Visualizer",
+    desc: "Music Visualizer that shows different music propeties such as treble, high mids etc. [Use Spacebar to see Menu or select options from 1-5 to see the Visuals]",
+    img: "/static/projects/music.png",
+    link: "https://bejewelled-centaur-3e8397.netlify.app/",
     tags: ["Javascript", "p5.js", "HTML"],
   },
 ];
