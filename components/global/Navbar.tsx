@@ -41,7 +41,7 @@ function Navbar({ currentPage }) {
         <li
           className={`list-none text-white opacity-40 hover:opacity-100 transition-opacity`}
           >
-              <a href={"https://drive.google.com/file/d/1p4zV4YgfM4w93DhOOrG-3gzvkRWRrcju/view?usp=sharing"} 
+              <a href={"https://drive.google.com/file/d/1tc3hxWyss06ZEzscpzO2lzGU0-0ycpdy/view?usp=sharing"} 
               target="_blank">
                 Resume
                 </a>

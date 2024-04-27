@@ -47,7 +47,7 @@ function Footer() {
               
                 
                 <a
-                  href={`https://drive.google.com/file/d/1p4zV4YgfM4w93DhOOrG-3gzvkRWRrcju/view?usp=sharing`}
+                  href={`https://drive.google.com/file/d/1tc3hxWyss06ZEzscpzO2lzGU0-0ycpdy/view?usp=sharing`}
                   target="_blank"
                   className="flex border-2 rounded-lg text-lg font-bold p-3 h-14 w-36 items-center justify-center text-center bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors"
                 >
