@@ -33,6 +33,7 @@ const projects: Project[] = [
     title: "Battle Space",
     desc: "A top down 2D Shooter with rich features and amazing levels. [Group Project]",
     img: "/static/projects/battle.png",
+    link: "https://faizanjavair.itch.io/battle-space",
     github: "https://github.com/neveensakr/games-development-t10",
     tags: ["Unity", "C#"],
   },
