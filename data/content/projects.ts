@@ -59,7 +59,7 @@ const projects: Project[] = [
     title: "OtoDecks DJ Application",
     desc: "A DJing application with two simultaneous tracks.",
     img: "/static/projects/dj.png",
-    link: "https://github.com/FaizanJavair/juce-dj-app/",
+    github: "https://github.com/FaizanJavair/juce-dj-app/",
     tags: ["C++", "JUCE"],
   },
   {
